@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+    {
+    int i,n,s=0;
+    clrscr();
+    printf("enter end value:");
+    scanf("%d",&n);
+    for(i=1;i<n;i+=2)
+    {
+        s=s+i;
+    }
+    printf("\n sum of off number %d",s);
+    getch();
+    return 0;
+}
